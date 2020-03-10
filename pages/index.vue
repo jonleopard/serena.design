@@ -1,9 +1,18 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">serena.design</h1>
-      <h2 class="subtitle">coming soon</h2>
+  <div class="container mx-auto">
+    <div class="flex h-screen">
+      <div class="m-auto md:flex lg:flex">
+        <logo />
+        <div class="flex-col m-auto">
+          <div class="text-center md:text-left">
+            <div class="flex lg:mr-8">
+              <h1 class="font-serif text-6xl text-gray-700">serena</h1>
+              <h1 class="font-serif text-6xl text-pink-600">.design</h1>
+            </div>
+            <h2 class="font-serif text-2xl text-gray-600">coming soon</h2>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -24,34 +33,4 @@ export default {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
