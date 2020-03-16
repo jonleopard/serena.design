@@ -5,9 +5,13 @@
         <logo />
         <div class="flex-col m-auto">
           <div class="text-center md:text-left">
-            <div class="flex lg:mr-8">
-              <h1 class="font-serif text-6xl text-gray-700">serena</h1>
-              <h1 class="font-serif text-6xl text-pink-600">.design</h1>
+            <div class="flex">
+              <h1 class="font-serif text-5xl text-gray-700 lg:text-6xl">
+                serena
+              </h1>
+              <h1 class="font-serif text-5xl text-pink-600 lg:text-6xl">
+                .design
+              </h1>
             </div>
             <h2 class="font-serif text-2xl text-gray-600">coming soon</h2>
           </div>
